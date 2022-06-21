@@ -134,6 +134,10 @@ class _HomeBody extends ViewModelWidget<HomeViewModel> {
                   name: 'Robot Control',
                   onTap: model.openRobotView,
                   file: 'assets/robot.json'),
+              Option(
+                  name: 'Face recognition',
+                  onTap: model.openRobotView,
+                  file: 'assets/face.json'),
             ],
           ),
         )

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629602498874",
+    "project_id": "robovation",
+    "storage_bucket": "robovation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629602498874:android:c9a62240de45804f9cb803",
+        "android_client_info": {
+          "package_name": "com.robovation.spark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629602498874-mlup9tiivqkv0e5t2evmohogs055naer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClLLuC2TQxZ23EO86UvXzHPZj9NPSgI94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629602498874-et3co31rs8frkq0nm2cpask20eao9mgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

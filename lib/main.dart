@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 
@@ -5,9 +6,13 @@ import 'app/app.locator.dart';
 import 'app/app.router.dart';
 import 'app/constants.dart';
 import 'ui/setup_snackbar_ui.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   setupLocator(); // stacked architecture
   setupSnackbarUi();
   runApp(const MyApp());
